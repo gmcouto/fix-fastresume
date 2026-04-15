@@ -1,0 +1,30 @@
+# Local wrapper with machine-specific paths
+fix.sh
+
+# Local copies of resume data (private; do not publish)
+files/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Backups created by this script
+*.bak
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Tooling (optional local configs)
+.idea/
+.vscode/
